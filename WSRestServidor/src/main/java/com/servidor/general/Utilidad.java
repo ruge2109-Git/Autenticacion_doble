@@ -39,8 +39,8 @@ public class Utilidad {
     public boolean enviarEmail(String destinatario, String asunto, String cuerpo) {
         boolean rta = false;
         Properties properties = new Properties();
-        String correoEnvia = "jonathan.ruge.02@gmail.com";
-        String contrasena = "Solorock123";
+        String correoEnvia = "correo";
+        String contrasena = "clave";
         properties.put("mail.smtp.host", "smtp.gmail.com");
         properties.put("mail.smtp.starttls.enable", "true");
         properties.put("mail.smtp.port", "587");
